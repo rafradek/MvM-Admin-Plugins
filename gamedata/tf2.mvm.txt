@@ -1,0 +1,56 @@
+"Games"
+{
+	/* Team Fortress 2 */
+	"tf"
+	{
+		"Signatures"
+		{
+            "CTFGameRules::DistributeCurrencyAmount"	//(int)
+			{
+				"library"			"server"
+				"linux"				"@_ZN12CTFGameRules24DistributeCurrencyAmountEiP9CTFPlayerbbb"
+				"mac"				"@_ZN12CTFGameRules24DistributeCurrencyAmountEiP9CTFPlayerbbb"
+			}
+            "CPopulationManager::JumpToWave" //int
+            {
+				"library"			"server"
+				"linux"				"@_ZN18CPopulationManager10JumpToWaveEjf"
+				"mac"				"@_ZN18CPopulationManager10JumpToWaveEjf"
+			}
+			"CAttributeManager::AttribHookValueFloat" //float (float, char const*, CBaseEntity const*, CUtlVector<CBaseEntity*, CUtlMemory<CBaseEntity*, int> >*, bool)
+            {
+				"library"			"server"
+				"linux"				"@_ZN17CAttributeManager15AttribHookValueIfEET_S1_PKcPK11CBaseEntityP10CUtlVectorIPS4_10CUtlMemoryIS8_iEEb"
+				"mac"				"@_ZN17CAttributeManager15AttribHookValueIfEET_S1_PKcPK11CBaseEntityP10CUtlVectorIPS4_10CUtlMemoryIS8_iEEb"
+			}
+			"AllocPooledString"
+			{
+				"library"			"server"
+				"linux"				"@_Z17AllocPooledStringPKc"
+				"mac"				"@_Z17AllocPooledStringPKc"
+			}
+			"CBaseServer::GetClient" 
+			{
+				"library"			"server"
+				"linux"				"@_ZN11CBaseServer9GetClientEi"
+				"mac"				"@_ZN11CBaseServer9GetClientEi"
+			}
+			"CTFPlayerShared::Burn"
+			{
+				"library"			"server"
+				"linux"				"@_ZN15CTFPlayerShared4BurnEP9CTFPlayerP13CTFWeaponBasef"
+				"mac"				"@_ZN15CTFPlayerShared4BurnEP9CTFPlayerP13CTFWeaponBasef"
+			}
+			
+        }
+		"Offsets"
+		{
+			"CTFPlayer::EquipWearable"
+			{
+				"windows"	"431"
+				"linux"		"432"
+				"mac"		"432"
+			}
+		}
+    }
+}
